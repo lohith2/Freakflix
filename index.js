@@ -28,7 +28,7 @@ app.use(cors());
 app.post("/getmovies", movie);
 app.post("/updategener", movie);
 
-const port = process.env.PORT | 8000;
+const port = process.env.PORT;
 console.log(port);
 
 app.listen(port, () => {
